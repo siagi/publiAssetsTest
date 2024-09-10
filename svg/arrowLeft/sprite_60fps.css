@@ -1,0 +1,19 @@
+@keyframes playarrow30 {
+	0% {
+		background-position: 0px 0px;
+	}
+	100% {
+		background-position: -480px 0px;
+	}
+}
+.shapeshifter-arrow {
+	animation-duration: 500ms;
+	animation-timing-function: steps(30);
+	animation-fill-mode: forwards;
+	width: 16px;
+	height: 16px;
+	background-repeat: no-repeat;
+}
+.shapeshifter-arrow.arrow.play {
+	animation-name: playarrow30;
+}
